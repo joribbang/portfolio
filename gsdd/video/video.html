@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+    <link rel="shortcut icon" href="../website/images/favicon/favicon.svg" type="image/x-icon" />
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* 스크롤바 강제로 숨김 */
+            background: #fff;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100svh;  /* 주소창 제외한 실제 화면 높이 기준 */
+        }
+        .video-wrap {
+            position: relative;
+            width: 90%;
+            max-width: 1920px;
+            aspect-ratio: 16/9;
+        }
+        .video-wrap iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="video-wrap">
+        <iframe src="https://player.vimeo.com/video/1119644811?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                title="VIDEO"></iframe>
+    </div>
+</body>
+</html>
