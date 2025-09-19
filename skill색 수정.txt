@@ -1,0 +1,5 @@
+skill색 수정시
+
+skill_script.js 45번째줄
+style.css 623번째줄
+둘다 같은 색으로 수정해야합니다.
