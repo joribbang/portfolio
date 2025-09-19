@@ -1,0 +1,110 @@
+@charset "utf-8";
+*{margin:0; padding:0;}
+ul,ol{list-style-type:none;}
+a{color:#000;text-decoration:none;}	
+
+
+body { font-family:"맑은고딕"; 
+		font-size:14px; 
+		color:#000; 
+		line-height:24px;
+}
+
+#section1{
+	width:1200px;
+	margin:0 auto;
+	background:#fff;
+	height:15000px;
+	
+}
+
+#section1 h1{
+	font-size:80px;
+	
+	margin:150px 0;
+	color:#86a56d;
+	text-align:center;
+}
+#section1 h2{
+	font-size:50px;
+	
+	color:#86a56d;
+	text-align:center;
+}
+
+.section1{
+	width:1200px;
+	background:url(../img/tium/01.jpg) center center no-repeat;
+	background-size:cover;	
+}
+.section1 img{
+	width:100%;
+	display:block;
+}
+
+.overview{
+	width:1200px;
+	height:905px;
+	
+	
+}
+.Competitor{
+	width:1200px;
+	height:905px;
+	
+	margin-top:50px;
+}
+.Competitor h2{
+	padding-top:100px;
+}
+.SWOT{
+	width:1200px;
+	height:905px;
+	
+	margin-top:80px;
+}
+.SWOT h2{
+	padding-top:50px;
+}
+
+.Market{
+	width:1200px;
+	height:905px;
+	margin-top:70px;
+	
+}
+.st{
+	padding:70px 0 0 470px;
+	font-size:40px;
+	color:#86a56d;
+	font-weight:600;
+}
+.Market h3{
+	padding:330px 0 0 40px;
+	font-size:40px;
+	color:#86a56d;
+}
+.Logo{
+	width:1200px;
+	height:905px;
+	margin-top:70px;
+}
+.Logo h2{
+	padding-top:80px;
+}
+.color_type{
+	width:1200px;
+	height:905px;
+	margin-top:50px;
+	
+}
+.color_type h2{
+	padding:50px 0px 0 930px;
+	
+	
+}
+.color_type h3{
+	padding:300px 0 0 50px;
+	font-size:50px;
+	color:#86a56d;
+}
