@@ -88,17 +88,19 @@ body {
 ================================================*/
 #video_wrap {
     width: 100%;
-    height: 940px;
+    height: auto;       /* 고정 높이(940px) 말고 자동으로 */
     overflow: hidden;
-    margin: 0px auto;
+    margin: 0 auto;
     position: relative;
 }
 
 video {
-    height: 100%;
-    position: absolute;
-    left: 50%;
-    margin-left: -960px;
+    width: 100%;        /* 화면 가로에 딱 맞춤 */
+    height: auto;       /* 세로는 비율 유지 */
+    position: relative; /* absolute 제거 */
+    left: auto;         /* 가운데 정렬용 코드 제거 */
+    margin-left: 0;     /* 가운데 보정값 제거 */
+    display: block;
 }
 
 /* preloader
