@@ -1067,6 +1067,9 @@ fieldset {
     .portfolio .categories-grid .categories ul li a {
         padding: 0 2px;
     }
+	.item_info {
+    padding-top: 10px;
+}
 }
 
 @media (max-width: 768px) {
