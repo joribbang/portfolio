@@ -1155,6 +1155,11 @@ fieldset {
         top: 9px;
     }
 
+	  .timeline-event {
+    width: 100%;
+}
+
+
 }
 
 @media (max-width: 420px) {
