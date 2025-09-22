@@ -1075,6 +1075,11 @@ fieldset {
         left: 2em;
     }
 
+	    .item_info {
+        padding-top: 0px;
+    }
+
+
 }
 
 @media (max-width: 500px) {
