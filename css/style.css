@@ -341,7 +341,7 @@ a.active {
 
     .disply-table {
         display: table;
-        height: 100vh;
+/*         height: 100vh; */
 
     }
 
@@ -394,7 +394,7 @@ a.active {
 
     #home,
     .disply-table {
-        height: 100vh;
+/*         height: 100vh; */
     }
 
     .disply-table h1 {
@@ -1083,7 +1083,7 @@ fieldset {
 
     #home,
     .disply-table {
-        height: 100vh;
+/*         height: 100vh; */
     }
 
     .about-border {
