@@ -88,18 +88,24 @@ body {
 ================================================*/
 #video_wrap {
     width: 100%;
-    height: auto;       /* 고정 높이(940px) 말고 자동으로 */
+    height: auto;
+    /* 고정 높이(940px) 말고 자동으로 */
     overflow: hidden;
     margin: 0 auto;
     position: relative;
 }
 
 video {
-    width: 100%;        /* 화면 가로에 딱 맞춤 */
-    height: auto;       /* 세로는 비율 유지 */
-    position: relative; /* absolute 제거 */
-    left: auto;         /* 가운데 정렬용 코드 제거 */
-    margin-left: 0;     /* 가운데 보정값 제거 */
+    width: 100%;
+    /* 화면 가로에 딱 맞춤 */
+    height: auto;
+    /* 세로는 비율 유지 */
+    position: relative;
+    /* absolute 제거 */
+    left: auto;
+    /* 가운데 정렬용 코드 제거 */
+    margin-left: 0;
+    /* 가운데 보정값 제거 */
     display: block;
 }
 
@@ -341,7 +347,7 @@ a.active {
 
     .disply-table {
         display: table;
-/*         height: 100vh; */
+        /*         height: 100vh; */
 
     }
 
@@ -394,7 +400,7 @@ a.active {
 
     #home,
     .disply-table {
-/*         height: 100vh; */
+        /*         height: 100vh; */
     }
 
     .disply-table h1 {
@@ -450,7 +456,7 @@ a.active {
 
 @media (max-width:500px) {
     #about {
-/*         padding: 200px 0 100px; */
+        /*         padding: 200px 0 100px; */
     }
 }
 
@@ -612,7 +618,7 @@ a.active {
     color: white;
     font-size: 12px;
     font-weight: bold;
-    background-color: rgba(191,165,201,.88);
+    background-color: rgba(191, 165, 201, .88);
     box-shadow: inset 0 0 0 0em #7A5591;
     display: inline-block;
     margin-bottom: 1.2em;
@@ -787,9 +793,9 @@ a.active {
     width: 80%;
 }
 
-    .item_info {
-        padding-top: 30px;
-    }
+.item_info {
+    padding-top: 30px;
+}
 
 .portfolio_item .portfolio_item_hover {
     position: absolute;
@@ -1063,22 +1069,25 @@ fieldset {
 /* Responsive media queries
 ==================================================*/
 @media (max-width: 1210px) {
-  #home {
-    padding-top: 65px; /* header 높이만큼 */
-  }
+    #home {
+        padding-top: 65px;
+        /* header 높이만큼 */
+    }
 }
 
 @media (max-width: 991px) {
     .portfolio .categories-grid .categories ul li a {
         padding: 0 2px;
     }
-	.item_info {
-    padding-top: 10px;
-}
-	.about-border img {
-  max-width: 100%;
-  height: auto;
-}
+
+    .item_info {
+        padding-top: 10px;
+    }
+
+    .about-border img {
+        max-width: 100%;
+        height: auto;
+    }
 
 }
 
@@ -1088,13 +1097,13 @@ fieldset {
         left: 2em;
     }
 
-	    .item_info {
+    .item_info {
         padding-top: 0px;
     }
 
-	  #contact .copyright {
-    white-space: normal;
-  }
+    #contact .copyright {
+        white-space: normal;
+    }
 
 
 }
@@ -1108,7 +1117,7 @@ fieldset {
 
     #home,
     .disply-table {
-/*         height: 100vh; */
+        /*         height: 100vh; */
     }
 
     .about-border {
@@ -1160,9 +1169,9 @@ fieldset {
         top: 9px;
     }
 
-	  .timeline-event {
-    width: 100%;
-}
+    .timeline-event {
+        width: 100%;
+    }
 
 
 }
@@ -1175,7 +1184,7 @@ fieldset {
     nav li a {
         font-size: 10px;
     }
-	
+
 }
 
 .portfolio_container .col-md-12 {
@@ -1222,7 +1231,7 @@ fieldset {
 }
 
 .portfolio_item {
-/*     height: 230px; */
+    /*     height: 230px; */
     overflow: hidden;
 }
 
@@ -1330,12 +1339,14 @@ nav li a[aria-current="page"]::after {
     padding-top: 10px; */
 }
 
-.copyright {margin: 30px 0;}
+.copyright {
+    margin: 30px 0;
+}
 
 .portfolio_item img {
-  transition: transform 0.4s ease;
+    transition: transform 0.4s ease;
 }
 
 #projects .col-md-4 .portfolio_item {
-  box-shadow: 0 4px 12px rgba(191, 165, 201, 0.35);
+    box-shadow: 0 4px 12px rgba(191, 165, 201, 0.35);
 }
