@@ -1149,15 +1149,16 @@ fieldset {
     nav li a {
         font-size: 10px;
     }
+	
+	.item_info {
+padding-top: 0px;
+}
+
 }
 
 .portfolio_container .col-md-12 {
     padding-left: 0;
     padding-right: 0;
-}
-
-.item_info {
-padding-top: 0px;
 }
 
 .project_btn {
