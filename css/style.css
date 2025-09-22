@@ -1146,10 +1146,6 @@ fieldset {
         top: 9px;
     }
 
-    .item_info {
-        padding-top: 0px;
-    }
-
 }
 
 @media (max-width: 420px) {
@@ -1161,10 +1157,6 @@ fieldset {
         font-size: 10px;
     }
 	
-	.item_info {
-padding-top: 0px;
-}
-
 }
 
 .portfolio_container .col-md-12 {
