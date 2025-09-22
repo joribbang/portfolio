@@ -1062,6 +1062,11 @@ fieldset {
 
 /* Responsive media queries
 ==================================================*/
+@media (max-width: 1210px) {
+  #home {
+    padding-top: 65px; /* header 높이만큼 */
+  }
+}
 
 @media (max-width: 991px) {
     .portfolio .categories-grid .categories ul li a {
