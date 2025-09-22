@@ -1199,7 +1199,7 @@ fieldset {
 }
 
 .portfolio_item {
-    height: 230px;
+/*     height: 230px; */
     overflow: hidden;
 }
 
