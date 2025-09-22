@@ -787,6 +787,9 @@ a.active {
     width: 80%;
 }
 
+    .item_info {
+        padding-top: 30px;
+    }
 
 .portfolio_item .portfolio_item_hover {
     position: absolute;
@@ -1136,7 +1139,7 @@ fieldset {
     }
 
     .item_info {
-        padding-top: 30px;
+        padding-top: 0px;
     }
 
 }
