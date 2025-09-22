@@ -450,7 +450,7 @@ a.active {
 
 @media (max-width:500px) {
     #about {
-        padding: 200px 0 100px;
+/*         padding: 200px 0 100px; */
     }
 }
 
